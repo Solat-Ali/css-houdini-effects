@@ -18,7 +18,9 @@ git clone https://github.com/Solat-Ali/css-houdini-effects.git
 - Open index.html in any modern browser (preferably Chrome or Edge).
   
 ## 📖 Learn More About CSS Houdini
+
 Official Houdini GitHub: https://github.com/w3c/css-houdini-drafts
+
 Houdini How: https://houdini.how
 
 ## 🌐 Live Demo
