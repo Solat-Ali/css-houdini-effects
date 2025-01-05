@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Houdini</title>
+
+    <!-- Modern Normalize CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <section class="houdini">
+        <h1 class="houdini__title">CSS Houdini Examples</h1>
+
+        <div class="houdini-cards">
+
+            <!-- Curved Line -->
+            <div class="houdini-card">
+                <div class="houdini-card__title">Curved Line</div>
+                <div class="houdini-card__worklet houdini-card__worklet-line"></div>
+            </div>
+
+            <!-- Voronoi Pattern -->
+            <div class="houdini-card">
+                <div class="houdini-card__title">Voronoi Pattern</div>
+                <div class="houdini-card__worklet houdini-card__worklet-voronoi"></div>
+            </div>
+
+             <!-- Paint Dot -->
+             <div class="houdini-card">
+                <div class="houdini-card__title">Dot Grid</div>
+                <div class="houdini-card__worklet houdini-card__worklet-dot"></div>
+            </div>
+
+             <!-- Sunset -->
+             <div class="houdini-card">
+                <div class="houdini-card__title">Sunset</div>
+                <div class="houdini-card__worklet houdini-card__worklet-sunset"></div>
+            </div>
+
+             <!-- Confetti-->
+             <div class="houdini-card">
+                <div class="houdini-card__title">Confetti</div>
+                <div class="houdini-card__worklet houdini-card__worklet-confetti"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom JS to include CSS Houdini worklet CDNs -->
+    <script src="worklets.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+body {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.houdini {
+    border: 1px solid green;
+    /* width: 75%; */
+    margin: 50px auto 0;
+}
+
+.houdini__title {
+    text-align: center;
+    margin: 40px;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+
+.houdini-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 20px;
+    padding: 50px;
+}
+
+.houdini-card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.houdini-card__title {
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.houdini-card__worklet {
+    height: 500px;
+}
+
+.houdini-card__worklet-line {
+    --curved-lineHeight: 17;
+    --curved-lineWidth: 8;
+    --curved-lineColor: #e75480;
+    --curved-lineSpread: 21;
+    background: paint(curved-line);
+}
+
+.houdini-card__worklet-voronoi {
+    --voronoi-cell-colors: #66ccff, #99ffcc, #00ffcc, #33ccff, #99ff99, #66ff99, #00ffff;
+    --voronoi-number-of-cells: 25;
+    --voronoi-line-color: black;
+    --voronoi-line-width: 1;
+    --voronoi-dot-color: black: --voronoi-dot-size: 0;
+    background: paint(voronoi);
+}
+
+.houdini-card__worklet-dot {
+    --dot-size: 4;
+    --dot-spacing: 6;
+    --dot-color: #d2d6db;
+    background: paint(dot-grid);
+}
+
+.houdini-card__worklet-sunset {
+    --sunset-gradient-start: #6df1d8;
+    --sunset-gradient-end: #d30cb8;
+    --sunset-line-color: #3c345c;
+    --sunset-grid-size: 1; 
+    background-image: paint(sunset);
+}
+
+.houdini-card__worklet-confetti {
+    --extra-confettiNumber:200;
+    --extra-confettiLengthVariance:10;
+    --extra-confettiWeightVariance:40;
+    background: paint(extra-confetti);
+}
