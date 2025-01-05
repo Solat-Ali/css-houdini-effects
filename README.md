@@ -22,7 +22,7 @@ Official Houdini GitHub: https://github.com/w3c/css-houdini-drafts
 Houdini How: https://houdini.how
 
 ## 🌐 Live Demo
-[Insert link if hosted, e.g., GitHub Pages or CodePen]
+https://solat-ali.github.io/css-houdini-effects/
 
 ## 🤝 Contributing
 Feel free to fork, improve, or share feedback via issues or pull requests!
