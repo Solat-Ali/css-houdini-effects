@@ -4,7 +4,9 @@ This repository showcases CSS Houdini in action through 4 interactive card examp
 ## 🌟 Features
 
 - 4 simple cards showcasing Houdini effects
-- Minimal HTML structure with CDN links for simplicity.
+- Minimal HTML structure with CDN links for simplicity
+- "Modern Normalize CSS" used for resetting base CSS styles. This is the same script TailwindCSS also uses, reference [here](https://tailwindcss.com/docs/preflight). 
+- BEM rules used for CSS styles naming convention
 
 ![image](https://github.com/user-attachments/assets/4f923fd4-cdbb-49bd-a85a-1d3284c51557)
 
