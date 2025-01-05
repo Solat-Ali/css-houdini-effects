@@ -6,7 +6,6 @@ This repository showcases CSS Houdini in action through 4 interactive card examp
 - 4 simple cards showcasing Houdini effects
 - Minimal HTML structure with CDN links for simplicity.
 
-## Screenshot: 
 ![image](https://github.com/user-attachments/assets/4f923fd4-cdbb-49bd-a85a-1d3284c51557)
 
 ## 🚀 Getting Started
