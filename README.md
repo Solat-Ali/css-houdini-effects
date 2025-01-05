@@ -3,11 +3,10 @@ This repository showcases CSS Houdini in action through 4 interactive card examp
 
 ## 🌟 Features
 
-- 4 fully functional CSS Houdini demos
+- 4 simple cards showcasing Houdini effects
 - Minimal HTML structure with CDN links for simplicity.
 
-## 📂 Project Structure
-index.html: Contains the demos with all necessary code.
+![image](https://github.com/user-attachments/assets/4f923fd4-cdbb-49bd-a85a-1d3284c51557)
 
 ## 🚀 Getting Started
 - Clone the repository:
