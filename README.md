@@ -1,9 +1,9 @@
 ## CSS Houdini Demos 🎨
-This repository showcases CSS Houdini in action through 4 interactive card examples. It demonstrates how to use Houdini's Paint API to create custom styles dynamically.
+This repository showcases CSS Houdini in action through interactive card examples. It demonstrates how to use Houdini's Paint API to create custom styles dynamically.
 
 ## 🌟 Features
 
-- 4 simple cards showcasing Houdini effects
+- 5 simple cards showcasing Houdini effects
 - Minimal HTML structure with CDN links for simplicity
 - "Modern Normalize CSS" used for resetting base CSS styles. This is the same script TailwindCSS also uses, reference [here](https://tailwindcss.com/docs/preflight). 
 - BEM rules used for CSS styles naming convention
